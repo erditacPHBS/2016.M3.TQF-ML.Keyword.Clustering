@@ -9,7 +9,7 @@ In this project I will crawl at least 10,000 articles from 30 most famous and tr
 After I’m done with placing the keywords I’ll use one of the clustering algorithms to create clusters of keywords.
 
 ## How to use keywords clusters for recommendation?
-We have an interest table that consists of keywrods for each user. We add keywords according to user’s click, like, dislike, share etc. actions. Essentially we want to find what keywords are related to our user’s keywords that are in his interest table. If we have clusters we can simply take a keyword from the interest table, find its cluster and get all the kwywrods in the cluster as “related keywords”. Then we can find the articles that scores high for “related kwywords”. These articles will be the articles we recommend.
+We have an interest table that consists of keywrods for each user. We add keywords according to user’s click, like, dislike, share etc. actions. Essentially we want to find what keywords are related to our user’s keywords that are in his interest table. If we have clusters we can simply take a keyword from the interest table, find its cluster and get all the keywrods in the cluster as “related keywords”. Then we can find the articles that scores high for “related keywords”. These articles will be the articles we recommend.
 
 P.S.
 The websites I choose are diversified in terms of the topics they cover. For example I chose sports, political, fashion, cooking, hobbies news sites so that I can have more and more different keywords.
