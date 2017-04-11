@@ -18,8 +18,8 @@ Article content can be found in “article_text.css” file. It has 12 columns:
 | 8 | date_crawled | The date that we crawled this article |
 | 9 | publish_date | The date that this article is published on its own source |
 | 10 | article_id | A website (Siphtor) specific id of the article. It’s unique for each article. |
-| 11 | news_source_id | The id of the news source. Check the file: “news_sources.csv” for the name of the source. |
-| 12 | rss_source_id | The id of the rss source of the article. Check the file: “rss_sources.csv” for the rss link. |
+| 11 | news_source_id | The id of the news source. Check the file: [news_sources.csv](news_sources.csv) for the name of the source. |
+| 12 | rss_source_id | The id of the rss source of the article. Check the file: [rss_sources.csv](rss_sources.csv) for the rss link. |
 
 ## article_text_sample.csv
 This is a sample file. For full version go to: [article_text.csv](https://www.dropbox.com/s/4v9xxuk3lb1geic/article_text.csv?dl=0)
@@ -30,8 +30,8 @@ In other words it includes the whole article as a text. It has 5 columns.
 
 |               | Name          | Explaination  |
 |:-------------:|---------------|-------|
-| 1 | id | A unique number given to each article. This id matches with the one in “articles.csv”. Basically you can check check atricle attributes by looking for the same id in “articles.csv” |
+| 1 | id | A unique number given to each article. This id matches with the one in [articles_sample.csv](articles_sample.csv) . Basically you can check check atricle attributes by looking for the same id in “articles.csv” |
 | 2 | description | The full content of the article |
 | 3 | status | A binary number to indicate whether keywords are extracted from this article of not. 0 means not extracted. 1 means extracted. |
 | 4 | date_crawled | The date we crawl the article |
-| 5 | article_id | A website (Siphtor) specific id of the article. It’s unique for each article. We have the same id in “articles.csv” |
+| 5 | article_id | A website (Siphtor) specific id of the article. It’s unique for each article. We have the same id in [articles_sample.csv](articles_sample.csv) |
