@@ -13,3 +13,6 @@ We have an interest table that consists of keywrods for each user. We add keywor
 
 P.S.
 The websites I choose are diversified in terms of the topics they cover. For example I chose sports, political, fashion, cooking, hobbies news sites so that I can have more and more different keywords.
+
+### Important Note:
+There is a seperate .MD file in each folder. So if you want to read the methodology please go to "/development&code/"
